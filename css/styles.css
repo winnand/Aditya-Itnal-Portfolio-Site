@@ -3392,7 +3392,7 @@ img.u-pull-left {
     background-repeat   : no-repeat;
     background-position : center;
     background-size     : cover;
-    height              : 100vh;
+    height              : 100vx;
     width               : calc(50% - 15vw);
     position            : absolute;
     top                 : 0;
@@ -3447,7 +3447,7 @@ img.u-pull-left {
 
 .s-intro__content-bg {
     display             : block;
-    background-image    : url(../images/avatars/user-01.jpg);
+    background-image    : url(../images/hero-image.jpg);
     background-repeat   : no-repeat;
     background-position : center;
     background-size     : cover;
@@ -3495,6 +3495,7 @@ img.u-pull-left {
     font-size         : calc(var(--text-title-size) * var(--text-multiplier));
     line-height       : 1.227;
     color             : white;
+    text-shadow       : 2px 2px 6px rgba(0, 0, 0, 0.9);
     padding-top       : var(--vspace-0_75);
     padding-right     : 10vw;
     margin-top        : 0;

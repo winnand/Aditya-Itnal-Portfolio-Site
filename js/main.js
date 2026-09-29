@@ -382,12 +382,16 @@
         const folioLightbox = function() {
 
             const folioLinks = document.querySelectorAll('.brick .entry__link');
-            const modals = [];
     
             folioLinks.forEach(function(link) {
                 let modalbox = link.getAttribute('href');
+                if (!modalbox || !modalbox.startsWith('#')) return;
+
+                let modalEl = document.querySelector(modalbox);
+                if (!modalEl) return;
+
                 let instance = basicLightbox.create(
-                    document.querySelector(modalbox),
+                    modalEl,
                     {
                         onShow: function(instance) {
                             //detect Escape key press
@@ -399,14 +403,11 @@
                             });
                         }
                     }
-                )
-                modals.push(instance);
-            });
-    
-            folioLinks.forEach(function(link, index) {
+                );
+
                 link.addEventListener("click", function(event) {
                     event.preventDefault();
-                    modals[index].show();
+                    instance.show();
                 });
             });
     
