@@ -140,7 +140,7 @@
      */
     --color-black                  : #000000;
     --color-gray-19                : #161616;
-    --color-gray-18                : #2c2c2c;
+    --color-gray-18                : #1c1e1f;
     --color-gray-17                : #424241;
     --color-gray-16                : #585857;
     --color-gray-15                : #6e6e6d;
@@ -1332,7 +1332,7 @@ body {
     font-size   : var(--base-font-size);
     font-weight : 400;
     line-height : var(--vspace-1);
-    color       : var(--color-text);
+    color       : var(--color-gray-10);
 }
 
 /* links
@@ -1369,7 +1369,7 @@ h6,
 .h6 {
     font-family            : var(--font-2);
     font-weight            : 600;
-    color                  : var(--color-text-dark);
+    color                  : var(--color-white);
     font-variant-ligatures : common-ligatures;
     text-rendering         : optimizeLegibility;
     letter-spacing         : -.010em;
@@ -2837,7 +2837,7 @@ img.u-pull-left {
     font-size   : calc(var(--text-size) * 1.1111);
     font-weight : 300;
     line-height : 1.8;
-    color       : var(--color-black);
+    color       : var(--color-gray-10);
     padding-top : var(--vspace-0_25);
 }
 
@@ -2848,7 +2848,7 @@ img.u-pull-left {
     font-size      : 8em;
     letter-spacing : -0.03em;
     line-height    : 1;
-    color          : var(--color-gray-9);
+    color          : var(--color-gray-16);
     position       : absolute;
     top            : 0;
     left           : var(--gutter);
@@ -2913,7 +2913,7 @@ img.u-pull-left {
     height           : var(--vspace-1_75);
     width            : var(--vspace-1_75);
     border-radius    : 50%;
-    background-color : var(--color-gray-6);
+    background-color : var(--color-gray-11);
     margin-bottom    : var(--vspace-0_25);
 }
 
@@ -3828,7 +3828,7 @@ img.u-pull-left {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-    background-color : var(--color-gray-2);
+    background-color : var(--color-gray-18);
     padding-top    : var(--vspace-5);
     padding-bottom : var(--vspace-5);
 }
