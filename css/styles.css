@@ -190,7 +190,7 @@
 
     /* others
      */
-    --color-body                   : white;
+    --color-body                   : --color-gray-18;
     --color-border                 : rgba(0, 0, 0, .08);
     --border-radius                : 3px;
 }
@@ -530,6 +530,11 @@ body {
     -webkit-tap-highlight-color : rgba(0, 0, 0, 0);
     -webkit-font-smoothing      : antialiased;
     -moz-osx-font-smoothing     : grayscale;
+}
+
+html.winnand-tkl-page,
+body.winnand-tkl-page {
+    background-color : var(--color-gray-18);
 }
 
 p {
@@ -1726,6 +1731,10 @@ hr.fancy::before {
     text-align : right;
 }
 
+.text-color-1 {
+    color : var(--color-1);
+}
+
 /* --------------------------------------------------------------------
  * ## lists
  * -------------------------------------------------------------------- */
@@ -2913,7 +2922,7 @@ img.u-pull-left {
     height           : var(--vspace-1_75);
     width            : var(--vspace-1_75);
     border-radius    : 50%;
-    background-color : var(--color-gray-11);
+    background-color : var(--color-gray-16);
     margin-bottom    : var(--vspace-0_25);
 }
 
@@ -4099,10 +4108,10 @@ img.u-pull-left {
 }
 
 .modal-popup__details {
-    background-color : rgba(0, 0, 0, 0.3);
-    font-size        : var(--text-xs);
+    background-color : rgba(255, 255, 255, 0.9);
+    font-size        : var(--text-s);
     line-height      : var(--vspace-1_25);
-    color            : white;
+    color            : var(--color-1);
     padding          : 0 1.2rem;
     position         : absolute;
     top              : var(--vspace-1);
@@ -4390,7 +4399,7 @@ img.u-pull-left {
  *
  * ------------------------------------------------------------------- */
 .s-footer {
-    background-color : var(--color-gray-2);
+    background-color : var(--color-gray-18);
     padding-top      : calc(5.5 * var(--space));
     padding-bottom   : var(--vspace-3);
     margin-top       : auto;
@@ -4412,7 +4421,7 @@ img.u-pull-left {
 }
 
 .s-footer .contact-list a {
-    color : var(--color-text);
+    color : var(--color-white);
 }
 
 .s-footer .contact-list a:focus,
