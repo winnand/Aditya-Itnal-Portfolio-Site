@@ -268,11 +268,11 @@
                             <article class="brick entry">
                                 <a href="#modal-04" class="entry__link">
                                     <div class="entry__thumb">
-                                        <img src="images/AmphDroneProp.png" alt="Rotating Fan & Turbomachinery CFD">
+                                        <img src="images/AmphDroneProp.png" alt="Render of the three-blade amphibious drone propeller">
                                     </div>
                                     <div class="entry__info">
-                                        <div class="entry__cat">CFD / Ansys Fluent</div>
-                                        <h4 class="entry__title">Rotating Machinery & Fan CFD</h4>
+                                        <div class="entry__cat">Propulsion / CFD • Purdue VIP</div>
+                                        <h4 class="entry__title">Amphibious UAV Propeller Design &amp; CFD</h4>
                                     </div>
                                 </a>
                             </article> <!-- entry -->
@@ -399,15 +399,17 @@
 
                 <div id="modal-04" hidden>
                     <div class="modal-popup">
-                        <img loading="lazy" src="images/AmphDroneProp.png" alt="Rotating machinery and fan CFD simulation">
+                        <img loading="lazy" src="images/AmphDroneProp.png" alt="Render of the three-blade amphibious drone propeller">
             
                         <div class="modal-popup__desc">
-                            <h5>Rotating Machinery & Fan CFD</h5>
-                            <p>Simulated rotating fan geometries and internal aerodynamic flow paths in Ansys Fluent using Moving Reference Frame (MRF) and sliding mesh techniques to analyze pressure gradients and mass flow rates.</p>
+                            <h5>Amphibious UAV Propeller Design &amp; CFD</h5>
+                            <p>CFD lead for a Purdue Vertically Integrated Projects (VIP) team developing a propeller for a drone that flies in air and operates in water. I designed a 10 in. propeller with OpenProp lifting-line code in MATLAB, then wrote a Python Fusion 360 add-in that batch-imports and lofts the blade sections into CAD. In Ansys Fluent, I built a Moving Reference Frame (MRF) model with inflation layers and a body-of-influence wake refinement. I resized the domain based on published propeller validation research, kept mesh skewness under 0.7 and moved the solve to the GPU to cut runtime by about 10x. The model predicts about 1.6 N of thrust and 0.045 N&middot;m of torque at 3,000 rpm. I also helped integrate the propeller on the team&rsquo;s thrust stand and presented the CFD results at our research poster session.</p>
                             <ul class="modal-popup__cat">
-                                <li>CFD</li>
+                                <li>Propulsion</li>
                                 <li>Ansys Fluent</li>
-                                <li>Turbomachinery</li>
+                                <li>OpenProp / MATLAB</li>
+                                <li>Fusion 360</li>
+                                <li>Python</li>
                             </ul>
                         </div>
                     </div>
