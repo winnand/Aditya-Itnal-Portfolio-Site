@@ -1,11 +1,18 @@
 <!doctype html>
-<html lang="en" class="no-js winnand-tkl-page">
+<html lang="en" class="no-js">
 
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Winnand TKL - Build Journal</title>
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta name="description" content="Build journal for the Winnand TKL, a custom mechanical keyboard with a KiCad PCB, Raspberry Pi Pico W running QMK/Vial, and a Fusion 360 isogrid case.">
+    <meta name="author" content="Aditya Itnal">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Winnand TKL - Build Journal | Aditya Itnal">
+    <meta property="og:description" content="Build journal for the Winnand TKL, a custom mechanical keyboard with a KiCad PCB, Raspberry Pi Pico W running QMK/Vial, and a Fusion 360 isogrid case.">
+    <meta property="og:image" content="images/winnandTKL/Final-Render.png">
+    <meta name="theme-color" content="#000000">
+    <link rel="icon" type="image/svg+xml" href="images/logo.svg">
   <script>
     document.documentElement.classList.remove('no-js');
     document.documentElement.classList.add('js');
@@ -39,14 +46,14 @@
 
           <ul class="s-header__social">
             <li>
-              <a href="https://github.com/winnand">
-                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.729.083-.729 1.205.084 1.84 1.237 1.84 1.237 1.07 1.835 2.809 1.305 3.495.998.108-.776.418-1.305.762-1.604-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.3 1.23a11.5 11.5 0 0 1 6 0c2.292-1.552 3.3-1.23 3.3-1.23.653 1.652.242 2.873.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.61-2.804 5.625-5.475 5.921.43.372.823 1.102.823 2.222 0 1.604-.015 2.896-.015 3.286 0 .321.216.694.825.576C20.565 22.093 24 17.597 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              <a href="https://github.com/winnand" target="_blank" rel="noopener noreferrer">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.729.083-.729 1.205.084 1.84 1.237 1.84 1.237 1.07 1.835 2.809 1.305 3.495.998.108-.776.418-1.305.762-1.604-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.3 1.23a11.5 11.5 0 0 1 6 0c2.292-1.552 3.3-1.23 3.3-1.23.653 1.652.242 2.873.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.61-2.804 5.625-5.475 5.921.43.372.823 1.102.823 2.222 0 1.604-.015 2.896-.015 3.286 0 .321.216.694.825.576C20.565 22.093 24 17.597 24 12.297c0-6.627-5.373-12-12-12"/></svg>
                 <span class="u-screen-reader-text">GitHub</span>
               </a>
             </li>
             <li>
               <a href="https://www.linkedin.com/in/aditya-itnal" target="_blank" rel="noopener noreferrer">
-                  <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512"><path fill="#fff" d="M474.919 0H38.592C17.72 0 0 16.504 0 36.841V475.14C0 495.496 11.629 512 32.492 512h436.327C489.718 512 512 495.496 512 475.14V36.841C512 16.504 495.809 0 474.919 0zM195.043 195.043h68.928v35.136h.755c10.505-18.945 41.541-38.177 79.921-38.177 73.655 0 94.214 39.108 94.214 111.538v135.321h-73.148V316.883c0-32.427-12.947-60.883-43.227-60.883-36.768 0-54.295 24.889-54.295 65.758v117.103h-73.148V195.043zM73.139 438.861h73.148V195.043H73.139v243.818zm82.289-329.148c0 25.258-20.457 45.715-45.715 45.715-25.258 0-45.715-20.457-45.715-45.715 0-25.258 20.457-45.715 45.715-45.715 25.258 0 45.715 20.457 45.715 45.715z"/></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512"><path d="M474.919 0H38.592C17.72 0 0 16.504 0 36.841V475.14C0 495.496 11.629 512 32.492 512h436.327C489.718 512 512 495.496 512 475.14V36.841C512 16.504 495.809 0 474.919 0zM195.043 195.043h68.928v35.136h.755c10.505-18.945 41.541-38.177 79.921-38.177 73.655 0 94.214 39.108 94.214 111.538v135.321h-73.148V316.883c0-32.427-12.947-60.883-43.227-60.883-36.768 0-54.295 24.889-54.295 65.758v117.103h-73.148V195.043zM73.139 438.861h73.148V195.043H73.139v243.818zm82.289-329.148c0 25.258-20.457 45.715-45.715 45.715-25.258 0-45.715-20.457-45.715-45.715 0-25.258 20.457-45.715 45.715-45.715 25.258 0 45.715 20.457 45.715 45.715z"/></svg>
                   <span class="u-screen-reader-text">LinkedIn</span>
               </a>
             </li>
@@ -63,24 +70,18 @@
         <p><em>Time spent: 4.0h</em></p>
         <p>The first thing I did was figure out the size I wanted. I decided on a Ten Key Less layout because that's
           what I use on my current keyboard. I then decided on a 6x17 matrix. Here is the initial routing, which I made
-          by screenshotting a modified keyboard-layout-editor.com layout &amp; drawing on it: <img
-            src="images/winnandTKL/Schematic-Initial.png"
-            alt="image"><br>
+          by screenshotting a modified keyboard-layout-editor.com layout &amp; drawing on it: <img loading="lazy" src="images/winnandTKL/Schematic-Initial.png" alt="Initial key matrix routing sketched over a keyboard-layout-editor layout"><br>
           I then created a schematic in KiCAD following his guide. I imported the switch &amp; diode symbols and
           profiles that he made, then arranged them to make the matrix. I took out some of the switch &amp; diodes based
           on the drawing I made:<br>
-          <img
-            src="images/winnandTKL/Schematic-Updated.png"
-            alt="image">
+          <img loading="lazy" src="images/winnandTKL/Schematic-Updated.png" alt="KiCad schematic of the 6x17 switch and diode matrix">
         </p>
         <p>After the matrix, I needed to decide on which microcontroller to use. I initially wanted to use the Teensy
           2.0, but it didn't have enough GPIO pins for the rotary encoder. After talking with my friend, I remembered
           that he had many Raspberry Pi Pico W boards sitting around. These boards barely have enough GPIO pins for the
           matrix and encoder, so I hope nothing goes wrong there.</p>
         <p>Updated schematic file:<br>
-          <img
-            src="images/winnandTKL/Schematic-PicoW.png"
-            alt="image">
+          <img loading="lazy" src="images/winnandTKL/Schematic-PicoW.png" alt="Updated KiCad schematic with the Raspberry Pi Pico W wired in">
         </p>
         <h2 class="text-color-1">12/10/2025 - Started Routing the PCB</h2>
         <p><em>Time spent: 5.5h</em></p>
@@ -90,9 +91,7 @@
           when I read the Rotary Encoder part of the QMK documentation. I found out I needed to use the EC11 encoder,
           which is the same encoder but without the breakout board. On the PCB, I routed the switches and the diodes, as
           well as some of the traces connecting the switches to their respective diodes:</p>
-        <p><img
-            src="images/winnandTKL/PCB-Routing.png"
-            alt="image"></p>
+        <p><img loading="lazy" src="images/winnandTKL/PCB-Routing.png" alt="PCB layout in progress with switches and diodes placed"></p>
         <p>Next time, I will change the schematic to replace the top right key (Pause/Break) with the EC11 encoder and
           wire in the Raspberry Pi Pico.</p>
         <h2 class="text-color-1">12/12/2025 - Finished routing the PCB</h2>
@@ -109,12 +108,8 @@
           of these steps involved rabbit holes and at least 1 failed attempt, which caused the time spent to be so high.
         </p>
         <p>Here are the pics of the front and back of the PCB:<br>
-          <img
-            src="images/winnandTKL/PCB-Front.png"
-            alt="KeyboardPCBFrontBare"><br>
-          <img
-            src="images/winnandTKL/PCB-Back.png"
-            alt="KeyboardPCBBackBare">
+          <img loading="lazy" src="images/winnandTKL/PCB-Front.png" alt="Finished PCB, front side"><br>
+          <img loading="lazy" src="images/winnandTKL/PCB-Back.png" alt="Finished PCB, back side with ground plane">
         </p>
         <h2 class="text-color-1">12/13/2025 - Compiled and Tested the Firmware</h2>
         <p><em>Time spent: 6.0h</em></p>
@@ -134,9 +129,7 @@
           faster. After that, I realized I could have many more layers on the rp2040's flash/EEPROM. Again, I recompiled
           it to go from 4 layers to 8.</p>
         <p>Here is a picture of the Vial base keymap/layer 0 of my winnand_tkl keyboard:<br>
-          <img
-            src="images/winnandTKL/Firmware-Keymap.png"
-            alt="image">
+          <img loading="lazy" src="images/winnandTKL/Firmware-Keymap.png" alt="Vial base keymap (layer 0) for the winnand_tkl keyboard">
         </p>
         <p>Something funny that happened was that I was trying to work on this in school, and, for context, I live in
           Texas where outside/non-school devices were banned, when I was trying to work on my first keyboard.json file.
@@ -160,9 +153,7 @@
           and reextruded and patterned it again. Afterwards, I used Move/Copy to duplicate it downwards a few times.
           Then I merged all the bodies together. The isogrid was finally complete. This was easily the hardest, longest,
           and most frustrating part of the whole CAD.<br>
-          <img
-            src="images/winnandTKL/CAD-Case-Plate.png"
-            alt="image">
+          <img loading="lazy" src="images/winnandTKL/CAD-Case-Plate.png" alt="Fusion 360 model of the case with isogrid bottom and top plate">
         </p>
         <p>After the isogrid, I modeled the outside of the case, which was significantly easier. After that, I put in
           supports for the PCB wherever there wasn't a switch or diode in the way in pursuit of more stiffness. Then, I
@@ -177,14 +168,8 @@
           only 1mm but it is kind of tall, so it may fail. Originally, it was only 0.5mm thick, so I had to go back into
           my sketch to change that. After the slices, it was finally done.</p>
         <p>Here are some renders I made:<br>
-          <img
-            src="images/winnandTKL/CAD-Case-Render-1.PNG"
-            alt="KB Case Render 1"><br>
-          <img
-            src="images/winnandTKL/CAD-Plate.PNG"
-            alt="KB Plate"><img
-            src="images/winnandTKL/CAD-Plate-Underside.PNG"
-            alt="KB Plate Underside">
+          <img loading="lazy" src="images/winnandTKL/CAD-Case-Render-1.png" alt="Render of the keyboard case"><br>
+          <img loading="lazy" src="images/winnandTKL/CAD-Plate.png" alt="Render of the switch plate"><img loading="lazy" src="images/winnandTKL/CAD-Plate-Underside.png" alt="Render of the switch plate underside with stiffening bars">
         </p>
         <p>NOTE: This took so much time since I spread this out over a few days. Also, each step had around 3 or more
           attempts each. On top of that, Fusion takes time to model so many features.</p>
@@ -194,9 +179,7 @@
             href="https://www.thingiverse.com/thing:2178185">https://www.thingiverse.com/thing:2178185</a>. I moved
           around and duplicated the keycaps until they were over each switch and then rendered it.</p>
         <p>Here is the final render:<br>
-          <img
-            src="images/winnandTKL/Final-Render.PNG"
-            alt="Final Render">
+          <img loading="lazy" src="images/winnandTKL/Final-Render.png" alt="Final render of the assembled Winnand TKL keyboard with keycaps">
         </p>
       </div>
     </div>
